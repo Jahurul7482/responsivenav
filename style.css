@@ -1,0 +1,86 @@
+/*===================
+basic setup
+===================*/
+*
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: tahoma;
+}
+ul li
+{
+	list-style-type: none;
+}
+a
+{
+	text-decoration: none;
+}
+body
+{
+	background-color: #eee;
+}
+
+/*=====================
+css start here
+======================*/
+header
+{
+	background-color: #2b343c;
+}
+nav
+{
+	width: 80%;
+	margin: auto;
+	height: 5rem;
+}
+.logo
+{
+	line-height: 5rem;
+	font-size: 2.5rem;
+	color: #daa520;
+	float: left;
+	justify-content: space-between;
+}
+nav ul
+{
+	/*position: fixed;*/
+	/*color: #ddd;*/
+	float: right;
+	/*display: flex;*/
+	line-height: 5rem;
+}
+nav ul li
+{
+	display: inline-block;
+	/*color: #ddd;*/
+}
+nav ul li a
+{
+	color: #ddd;
+	display: block;
+	padding: 0 1rem;
+}
+nav ul li a:hover
+{
+	color: #999;
+	/*background-color: red;*/
+	background-color: #2b202f;
+}
+nav ul li a:active
+{
+	color: #777;
+	/*background-color: #ddd;*/
+}
+#toggle
+{
+	display: none;
+}
+.toggler
+{
+	line-height: 5rem;
+	font-size: 2.5rem;
+	float: right;
+	display: none;
+	transition: 0.5s;
+}
